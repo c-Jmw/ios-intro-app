@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>913ADE44-8F0A-4C18-ABEB-0CEEB8016AE6</string>
 	<key>IDESourceControlProjectName</key>
-	<string>ToDoList</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>F53C273E14F1B4C238BDA224019788A26E333F69</key>
 		<string>https://github.com/c-Jmw/ios-intro-app.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ToDoList/ToDoList.xcodeproj</string>
+	<string>ToDoList/ToDoList.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>F53C273E14F1B4C238BDA224019788A26E333F69</key>
