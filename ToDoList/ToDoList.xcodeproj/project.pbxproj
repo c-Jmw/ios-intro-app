@@ -16,6 +16,7 @@
 		AB8C44E31AEA88E900E88F8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8C44E21AEA88E900E88F8F /* Images.xcassets */; };
 		AB8C44E61AEA88E900E88F8F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB8C44E41AEA88E900E88F8F /* LaunchScreen.xib */; };
 		AB8C44F21AEA88E900E88F8F /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8C44F11AEA88E900E88F8F /* ToDoListTests.m */; };
+		AB91978D1AEE572800E64497 /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AB91978C1AEE572800E64497 /* ToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		AB8C44EB1AEA88E900E88F8F /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8C44F01AEA88E900E88F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB8C44F11AEA88E900E88F8F /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		AB91978B1AEE572800E64497 /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		AB91978C1AEE572800E64497 /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,8 @@
 		AB8C44C91AEA88E900E88F8F = {
 			isa = PBXGroup;
 			children = (
+				AB91978B1AEE572800E64497 /* ToDoItem.h */,
+				AB91978C1AEE572800E64497 /* ToDoItem.m */,
 				AB8C44D41AEA88E900E88F8F /* ToDoList */,
 				AB8C44EE1AEA88E900E88F8F /* ToDoListTests */,
 				AB8C44D31AEA88E900E88F8F /* Products */,
@@ -229,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB91978D1AEE572800E64497 /* ToDoItem.m in Sources */,
 				AB8C44DE1AEA88E900E88F8F /* ViewController.m in Sources */,
 				AB8C44DB1AEA88E900E88F8F /* AppDelegate.m in Sources */,
 				AB8C44D81AEA88E900E88F8F /* main.m in Sources */,
